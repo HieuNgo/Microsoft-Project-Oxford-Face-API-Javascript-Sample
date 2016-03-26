@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+#camera {
+	width: 400px;
+	height: 300px;
+}
+
+#img {
+	width: 400px;
+	height: 300px;
+}
+.center{
+		
+	text-align: center;
+}
+#canvas{
+	display: none;
+	
+	
+}
+
+.panel{
+	margin-bottom: 1.5em;
+	
+}

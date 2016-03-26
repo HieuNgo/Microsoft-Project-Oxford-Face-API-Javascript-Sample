@@ -1,0 +1,10 @@
+# Eclipse
+.project
+.classpath
+.settings
+
+img/
+censored.html
+js/censored
+const/apikey.js
+node_modules/

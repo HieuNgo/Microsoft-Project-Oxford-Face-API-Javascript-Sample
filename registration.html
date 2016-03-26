@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="css/camera.css" media="all">
+	<link rel="stylesheet" href="css/html5reset.css" media="all">
+	<link rel="stylesheet" href="css/col.css" media="all">
+	<link rel="stylesheet" href="css/12cols.css" media="all">
+	<title>Registration</title>
+</head>
+<body>
+	<div class="section group">
+		<div class="col span_2_of_12"></div>
+		<div class="col span_8_of_12">
+			<div class='panel center'>
+				<h2>Create Parson</h2>
+				<input name='name'/><br />
+				<button id='create_parson'>Create Parson</button>				
+			</div>
+			<div class='panel center'>							
+				<h2>Add Parson Face</h2>
+				<select name='parsonId'>
+				</select>
+				<br/>
+				<video id="camera" autoplay></video>
+				<br/>
+				<button id="addParsonFace">Add Pason Face</button>
+				<canvas id="canvas"></canvas>
+			</div>		
+		</div>		
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/registration.js"></script>
+	<script type="text/javascript" src="const/apikey.js"></script>
+	<script type="text/javascript" src="const/group.js"></script>
+</body>
+</html>
