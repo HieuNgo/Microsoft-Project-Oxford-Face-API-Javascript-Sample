@@ -71,7 +71,7 @@ $(function() {
 						    
 						}
 					}
-		        	if(!personIds && parsonIds.length === 0){
+		        	if(!personIds || parsonIds.length === 0){
 		        		var message = detects.join(',') + ' identified';
 		        		alert(message);
 		        	}
