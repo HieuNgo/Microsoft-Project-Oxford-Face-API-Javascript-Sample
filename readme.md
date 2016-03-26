@@ -1,6 +1,6 @@
 Microsoft Project Oxford Face API Javascript Sample
 ====
-[Microsoft Project Oxford Face API](https://www.projectoxford.ai/face) 'severless' sample. it's unofficial.see 
+[Microsoft Project Oxford Face API](https://www.projectoxford.ai/face) 'severless' sample. it's unofficial
 
 
 ## Description
@@ -29,26 +29,26 @@ npm install
 node create_group.js
 ```
  
-7. open registration.html in your browser and create parson
+7. identify.html create parson
 8. enter this command.
 
 ```
 node train_person_group.js
 ```
 
-9 after same minutes,enter this command and check train status
+9 after same minutes,enter this command and check train status 'succeed'
 
 ```
 node get_person_group_training_status.js
 ```
 
-10 
+10 open identify.html in youre browser and identify face.
 
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+MIT Licence
 
 ## Author
 
-[takayuki hagiwara](hagiwaratakayuki)
+takayuki hagiwara hagiwaratakayuki@gmail.com
