@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="css/camera.css">
+	<title>face censored</title>
+	<style>
+		#canvas,.hide{
+		
+			display:none;
+		
+		}
+		
+		#open{
+			text-align:center;	
+		
+		}
+		body{
+			font-family: "Helvetica Neue",Helvetica,Arial,"ヒラギノ角ゴ Pr6N","Hiragino Kaku Gothic Pr6N","ヒラギノ角ゴ ProN","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ StdN","Hiragino Kaku Gothic StdN","Segoe UI",Verdana,"メイリオ",Meiryo,sans-serif;
+		
+		}
+		.display{
+			padding-left: 16.5%;
+			width:67.5%;
+		
+		}
+		.center{
+		
+			text-align: center;
+		}
+		h1{
+			
+			border-bottom:1px solid #eee;
+		
+		}
+		.float{
+			float:right;
+		
+		}
+		
+	</style>
+</head>
+<body>
+	<div id='open'>
+		
+		<video id="camera" autoplay></video>
+		<br/>
+		<button id="start">start</button>
+		
+		<canvas id="canvas"></canvas>
+	</div>
+	<div class='hide display' id='not_censored'>
+		<h1>営業死ね</h1>
+		<p>バグ?　そもそも動かねーよ!</p>
+		<p>進捗?　知るかボケが</p>
+		<p><b>昨日ねじ込んでくる奴は呪われろ!</b></p>	
+	</div>
+	<div id='censored' class='hide display'>
+		<h1>ちょー完璧な計画と進行</h1>
+			<img src='img/rokuro.jpg' class='float'>
+			<p>バグ発生率0%</p>
+			<p>予定からの遅れ0%</p>
+			<p><b>昨日追加決定の機能に問題なし!　明日リリース!</b></p>			
+		</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/censored.js"></script>
+	<script type="text/javascript" src="const/apikey.js"></script>
+	<script type="text/javascript" src="const/group.js"></script>
+</body>
+</html>

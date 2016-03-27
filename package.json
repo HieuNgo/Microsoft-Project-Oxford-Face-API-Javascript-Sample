@@ -12,6 +12,6 @@
   "author": "hagiwaratakayuki",
   "license": "mit licence",
   "devDependencies": {
-   	"request":"*"
+   	request:'*'
   }
 }

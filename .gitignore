@@ -2,9 +2,8 @@
 .project
 .classpath
 .settings
+.gitignore
+.buildpath
 
-img/
-censored.html
-js/censored
 const/apikey.js
 node_modules/
